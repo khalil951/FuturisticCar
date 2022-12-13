@@ -1,0 +1,44 @@
+:root {
+    --b-white:#ECF7F4;
+    --b-grey:#3F4241;
+    --b-lightBlack:#222123;
+    --b-red:#C71515;
+    --b-dred:#890B0B;
+  }
+
+body {
+    font-size: 1.6rem;
+    background-color: #ECF7F4 !important;
+}
+
+.form::before {
+    background: linear-gradient(to left, #C71515,
+    #890B0B) !important;
+}
+
+
+.form__input>i {
+    color: #C71515;
+}
+
+.form__input .bar::before {
+    background-color: #890B0B;
+}
+
+
+.form__button {
+    display: block;
+    margin: 2.5rem auto 3rem;
+    padding: 1rem 5rem;
+    background: linear-gradient(to left, #890B0B,
+    #C71515);
+}
+
+.form__button:hover {
+    background: linear-gradient(to left, #C71515,
+            #890B0B);
+}
+
+.form__switch a {
+    color: #3F4241;
+}
