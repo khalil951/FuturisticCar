@@ -23,14 +23,14 @@
         <input type="password" placeholder="password" name="password" id="password">
         </form>
         <button class="g-recaptcha" 
-                data-sitekey="6LcJe1ojAAAAAAaIXpD0u40KGnyoa_Jq3_3dmKII" 
+                data-sitekey=<key> 
                 data-callback='onSubmit' 
                 data-action='submit'>Submit </button> -->
               
                
 
 
-        <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LcJe1ojAAAAAPIEFZSNReA3HJPqqvoxVfk5QCRi"></script>
+        <!-- <script src="https://www.google.com/recaptcha/api.js?render=<key>"></script>
         <script>
             function onClick(e) {
                 e.preventDefault();
