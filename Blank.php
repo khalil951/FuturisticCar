@@ -35,7 +35,7 @@
             function onClick(e) {
                 e.preventDefault();
                 grecaptcha.ready(function() {
-                grecaptcha.execute('6LcJe1ojAAAAAPIEFZSNReA3HJPqqvoxVfk5QCRi', {action: 'Blank.php'}).then(function(token) {
+                grecaptcha.execute(<key>, {action: 'Blank.php'}).then(function(token) {
                     // Add your logic to submit to your backend server here.
                     console.log(token);
                 });
